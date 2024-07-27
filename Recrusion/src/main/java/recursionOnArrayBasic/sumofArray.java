@@ -3,6 +3,7 @@ package recursionOnArrayBasic;
 public class sumofArray {
     public static void main(String[] args){
         int arr[]={1,2,3,4};
+        //this print the max
         System.out.println(sumArray(arr,0,0));
     }
     public static int sumArray(int arr[],int index,int sum){
